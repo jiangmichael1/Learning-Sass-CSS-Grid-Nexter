@@ -8,7 +8,21 @@
         background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
 
-        padding: 6rem 12rem;
+        padding: 6rem 8vw;
+
+        /* ***Using Flexbox*** */
+        /*
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        */
+
+        /* ***Using CSS Grid*** */
+        display: grid;
+        align-content: center;
+        justify-items: start; //to align row items
+
     }
 
     &__text {
